@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Predictions Pro - Delete Account</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        h1 { color: #00D4FF; }
+        .form-container { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input, textarea { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+        button { background: #dc3545; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #c82333; }
+        .warning { background: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 4px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Delete Your Account</h1>
+    
+    <div class="warning">
+        <strong>⚠️ Warning:</strong> Account deletion is permanent and cannot be undone. All your data will be permanently removed from our servers.
+    </div>
+
+    <h2>What will be deleted:</h2>
+    <ul>
+        <li>Your user profile and preferences</li>
+        <li>All prediction history</li>
+        <li>Community messages and comments</li>
+        <li>VIP subscription status</li>
+        <li>All associated data</li>
+    </ul>
+
+    <div class="form-container">
+        <h3>Request Account Deletion</h3>
+        <form action="mailto:support@elitepredictions.pro" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="email">Your Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="reason">Reason for deletion (optional):</label>
+                <textarea id="reason" name="reason" rows="4" placeholder="Please let us know why you're deleting your account..."></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" required> I understand that this action is permanent and cannot be undone
+                </label>
+            </div>
+            
+            <button type="submit">Request Account Deletion</button>
+        </form>
+    </div>
+
+    <h3>Alternative Methods:</h3>
+    <ul>
+        <li><strong>Email:</strong> support@elitepredictions.pro</li>
+        <li><strong>Subject:</strong> Account Deletion Request</li>
+        <li><strong>Include:</strong> Your email address and reason for deletion</li>
+    </ul>
+
+    <h3>Processing Time:</h3>
+    <p>Account deletion requests are processed within 30 days. You will receive a confirmation email once your data has been permanently deleted.</p>
+
+    <p><a href="privacy_policy.html">← Back to Privacy Policy</a></p>
+</body>
+</html>
